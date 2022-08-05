@@ -8,6 +8,8 @@ public class CardSuit {
             return "diamonds";
         } else if(input == "3♥"){
             return "hearts";
+        } else if(input == "3♠"){
+            return "spades";
         }
         return "Sorry, I don't know what emoji is this one :/";
     }
