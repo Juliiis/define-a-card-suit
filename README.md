@@ -13,3 +13,4 @@
   input: ('3♥') -> output 'hearts'
   input: ('3♠') -> output 'spades'
     ```
+- I need to transform the input to the output.
