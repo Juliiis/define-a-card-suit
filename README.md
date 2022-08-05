@@ -3,10 +3,10 @@
 ### You get any card as an argument. Your task is to return the suit of this card (in lowercase).
 
 ---
-#### Tips and ¿What I want to test?
+#### Tips and what I want to test
 - The inputs and outputs will be String type.
-- The cases to test will be 4
-- Cases:
+- The cases to test will be 4.
+- The cases to test are:
     ```
   input: ('3♣') -> output: 'clubs'
   input: ('3♦') -> output 'diamonds'
