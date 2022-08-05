@@ -8,5 +8,4 @@ input: ('3♦') -> output 'diamonds'
 input: ('3♥') -> output 'hearts'
 input: ('3♠') -> output 'spades'
 ```
------
 
