@@ -16,5 +16,15 @@ public class CardSuitTest {
         assertThat(result).isEqualTo(output);
     }
 
+    @Test
+    void when_I_received_the_diamond_emoji_I_get_diamond(){
+        String input = "3♦";
+        String output = "diamonds";
+
+        CardSuit myObject = new CardSuit();
+        String result = myObject.card_suit(input);
+
+        assertThat(result).isEqualTo(output);
+    }
 
 }
