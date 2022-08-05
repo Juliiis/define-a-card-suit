@@ -6,6 +6,8 @@ public class CardSuit {
             return "clubs";
         } else if (input == "3♦"){
             return "diamonds";
+        } else if(input == "3♥"){
+            return "hearts";
         }
         return "Sorry, I don't know what emoji is this one :/";
     }
